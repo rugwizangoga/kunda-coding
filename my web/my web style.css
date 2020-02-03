@@ -1,0 +1,157 @@
+*{
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+}
+#visitrwanda{
+      float: left;
+      width: 20%
+}
+.header{
+      margin-bottom: 50px;
+}
+.headers{
+      color: white;
+      text-align: center;
+      background-color: #036943;
+      padding: 11.5px 0px;
+}
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.aboutrwanda{
+      width: 60%;
+      font-family: serif;
+      font-size: 17px;
+      text-align: left;
+      margin: 35px;
+}
+.attsites{
+      float: right;
+      width: 75%;
+      font-family: serif;
+      font-size: 17px;
+      text-align: left;
+      margin: 35px;
+}
+ .slideframe{
+      overflow: hidden;
+      height: 500px;
+      width: 1065px;
+      margin: 5px 70px;
+ }
+ @-webkit-keyframes slide_animation{
+      0%{left: 0px;}
+      10%{left: 0px;}
+      20%{left: 1065px;}
+      30%{left: 1065px;}
+      40%{left: 2130px;}
+      50%{left: 2130px;}
+      60%{left: 3195px;}
+      70%{left: 3195px;}
+      80%{left: 4260px;}
+      90%{left: 4260px;}
+      100%{left:4260px;}
+ }
+
+.slideimage{
+      width: 6390px;
+      height: 500px;
+      margin: 0 0 0 -4260px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      -webkit-animation-duration:33s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      -webkit-animation-play-state: running;
+}
+
+ .imagecontainer{
+      height: 500px;
+      width: 1065px;
+      position: relative;
+      float: left;
+ }
+
+.footer{
+      margin-top: 20px;
+      width: 100%;
+      display: block;
+      overflow: hidden;
+      padding: 50px 0px;
+      box-sizing: border-box;
+      background-color:#036943;
+}
+.inner_footer{
+      display: block;
+      margin:0 auto ;
+      width: 1100px;
+      height: 100%;
+}
+.inner_footer .logo_container{
+      width: 35%;
+      height: 100%;
+      float:left;
+      display: block;
+}
+.inner_footer .logo_container img{
+width: 220px;
+height: auto;
+}
+
+.inner_footer .footer_third{
+      width: calc(21.666666667%-20px);
+      margin-right: 70px;
+      float: left;
+      height: 100%
+}
+
+.inner_footer .footer_third:last-child{
+      margin-right: 0px;
+}
+
+.inner_footer .footer_third h1{
+      font-family:sans-serif;
+      font-size: 18px;
+      color: black;
+      display: block;
+      width: 100%;
+      margin-bottom: 13px;
+}
+
+
+.inner_footer .footer_third a{
+      font-family:sans-serif;
+      font-size: 15px;
+      color: white;
+      display: block;
+      width: 100%;
+      font-weight: 200px
+      padding:10px;
+      margin: 10px 3px;}
+.inner_footer .footer_third li{
+      padding: 0 5px;
+      font-size:20px;
+      display: inline-block;
+      color: white;
+}
+
+
+
+
+
+
+
+
+
+
