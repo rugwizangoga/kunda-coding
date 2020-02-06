@@ -1,76 +1,138 @@
-*{
-      padding: 0px;
-      margin: 0px;
-      list-style: none;
-      text-decoration: none;
-      box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: Bookman Old Style;
+  text-decoration: none;
 }
-#visitrwanda{
-      float: left;
-      width: 20%
+
+.menu-area li a {
+  text-decoration: none;
 }
-.header{
-      margin-bottom: 50px;
+
+.menu-area li {
+  list-style-type: none;
 }
-.headers{
-      color: white;
-      text-align: center;
-      background-color: #036943;
-      padding: 11.5px 0px;
+
+.custom-padding{
+      width: 100%;
 }
+
+nav {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  z-index: 1;
+  text-align: center;
+  padding-right: 5px;
+}
+
+.logo {
+  width: 15%;
+  float: left;
+  padding-left: 1%;
+}
+
+.logo img{
+      width: 120px;
+      height: inherit;
+}
+
+.menu-area li {
+  display: inline-block;
+}
+
+.menu-area a {
+  padding: 15px 0;
+  margin-left: 3px;
+  width: 100px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+.menu-area a:hover {
+  background: #036943;
+  color: #fff;
+}
+.menu-area a:user-select{
+background: #036943;
+  color: #fff;
+}
+/* ignore the code below */
+
 .img-container {
+  float: left;
+  width: 16.66%;
+  padding: 5px;
+}
+.img-contain {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
+.clearfi{
+      margin: 30px 20px 100px 20px;
+}
 
+.clearfix{
+      width: 100%
+      margin: 30px 20px 100px 20px;
+}
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
+p{
+      margin: 15px 0;
+
+}
 .aboutrwanda{
       width: 60%;
-      font-family: serif;
       font-size: 17px;
       text-align: left;
-      margin: 35px;
-}
-.attsites{
-      float: right;
-      width: 75%;
-      font-family: serif;
-      font-size: 17px;
-      text-align: left;
-      margin: 35px;
+      margin: 60px auto;
 }
  .slideframe{
       overflow: hidden;
       height: 500px;
       width: 1065px;
-      margin: 5px 70px;
+      margin: 5px auto;
  }
  @-webkit-keyframes slide_animation{
       0%{left: 0px;}
-      10%{left: 0px;}
-      20%{left: 1065px;}
-      30%{left: 1065px;}
-      40%{left: 2130px;}
-      50%{left: 2130px;}
-      60%{left: 3195px;}
-      70%{left: 3195px;}
-      80%{left: 4260px;}
-      90%{left: 4260px;}
-      100%{left:4260px;}
+      9%{left: 0px;}
+      18%{left: 1065px;}
+      27%{left: 1065px;}
+      36%{left: 2130px;}
+      45%{left: 2130px;}
+      54%{left: 3195px;}
+      63%{left: 3195px;}
+      72%{left: 4260px;}
+      81%{left: 4260px;}
+      90%{left:5325px;}
+      100%{left:5325px;}
+ }
+ h4{
+      color: black;
  }
 
 .slideimage{
-      width: 6390px;
+      width: 7455px;
       height: 500px;
-      margin: 0 0 0 -4260px;
+      margin: 0 0 0 -5325px;
       position: relative;
       -webkit-animation-name: slide_animation;
-      -webkit-animation-duration:33s;
+      -webkit-animation-duration:50s;
       -webkit-animation-iteration-count: infinite;
       -webkit-animation-direction: alternate;
       -webkit-animation-play-state: running;
@@ -84,7 +146,7 @@
  }
 
 .footer{
-      margin-top: 20px;
+      margin-top: 100px;
       width: 100%;
       display: block;
       overflow: hidden;
@@ -121,7 +183,6 @@ height: auto;
 }
 
 .inner_footer .footer_third h1{
-      font-family:sans-serif;
       font-size: 18px;
       color: black;
       display: block;
@@ -131,7 +192,6 @@ height: auto;
 
 
 .inner_footer .footer_third a{
-      font-family:sans-serif;
       font-size: 15px;
       color: white;
       display: block;
